@@ -1,6 +1,7 @@
 import { Container, Box, Button, Typography } from '@mui/material'
 import React from 'react'
 import codingPic from '../../Assets/coding.png'
+import { Link } from 'react-router-dom'
 
 const styles = {
     title: {
@@ -68,7 +69,7 @@ const HomeCourses = () => {
                 boxShadow: '0.5rem 0.5rem 0.5rem 0.5rem white'
             }
             }}>
-                <img src={codingPic} alt="Pic 1" style={{ width: '20rem', height: 'auto',
+                <img src={codingPic} alt="Pic 1" style={{ width: '23rem', height: 'auto',
               borderRadius: '2rem', margin: '1rem'
                }}/>
                 <Typography sx={{fontSize: '2rem'}}>
@@ -80,14 +81,17 @@ const HomeCourses = () => {
                 <Typography sx={{marginTop: '1rem'}}>
                 This course is free!
                 </Typography>
-                  <Button sx={{backgroundColor: 'blue', color: 'white',
+                  <Button sx={{backgroundColor: 'darkblue', color: 'white',
                     transition: 'transform 0.3s',
                     marginTop: '1rem',
                     marginBottom: '1rem',
                     '&:hover': {
                       transform: 'scale(1.05)',
                       backgroundImage: 'linear-gradient(to bottom, #003eff, #006eff)'},
-                }}>Start!</Button>
+                }}
+                component={Link}
+                to="/courses/reactfrontend"
+                >Start!</Button>
               </Box>
 
           </Box>

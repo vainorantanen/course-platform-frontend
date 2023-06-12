@@ -1,6 +1,7 @@
 import { Container, Box, Typography, Button } from '@mui/material'
 import React from 'react'
 import ai from '../../Assets/user-interface.png'
+import { Link } from 'react-router-dom'
 
 const HomeHeader = () => {
   return (
@@ -57,7 +58,10 @@ const HomeHeader = () => {
           '&:hover': {
             transform: 'scale(1.05)',
             backgroundImage: 'linear-gradient(to bottom, #003eff, #006eff)'}
-        }}>React Frontend</Button>
+        }}
+        component={Link}
+        to="/courses/reactfrontend"
+        >React Frontend</Button>
         </Box>
         <Box>
           <img src={ai} alt="Pic of ui"  style={{ width: '20rem', height: 'auto' }}/>

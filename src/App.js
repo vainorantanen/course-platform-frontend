@@ -11,6 +11,7 @@ import {
 import { createTheme } from '@mui/material/styles';
 import { ThemeProvider } from "@emotion/react";
 import AllCourses from "./components/Courses/AllCourses";
+import ReactFrontendMain from "./components/Courses/ReactFrontend/ReactFrontendMain";
 
 const theme = createTheme({
   typography: {
@@ -26,6 +27,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/courses" element={<AllCourses />}/>
+            <Route path="/courses/reactfrontend" element={<ReactFrontendMain />}/>
           </Routes>
           <Footer />
       </Container>

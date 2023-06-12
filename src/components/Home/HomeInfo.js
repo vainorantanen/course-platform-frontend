@@ -1,7 +1,8 @@
-import { Container, Box, Typography } from '@mui/material'
+import { Container, Box, Typography, Button } from '@mui/material'
 import React from 'react'
 import DevicesIcon from '@mui/icons-material/Devices';
 import CreditCardOffIcon from '@mui/icons-material/CreditCardOff';
+import { Link } from 'react-router-dom';
 
 const HomeInfo = () => {
   return (
@@ -38,6 +39,17 @@ const HomeInfo = () => {
             <Typography sx={{ marginBottom: '1rem' }}>
                 Learn to integrate databases into your applications using MongoDB
             </Typography>
+              <Button sx={{backgroundColor: 'blue', color: 'white',
+                transition: 'transform 0.3s',
+                marginTop: '1rem',
+                '&:hover': {
+                  transform: 'scale(1.05)',
+                  backgroundImage: 'linear-gradient(to bottom, #003eff, #006eff)'}
+              }}
+              component={Link}
+              to="/courses/reactfrontend"
+              >See all courses
+              </Button>
             </Box>
           </Box>
 

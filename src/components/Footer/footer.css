@@ -1,0 +1,44 @@
+.footerContainer {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 3rem;
+    background-color: #333;
+    color: white;
+    border-radius: 3rem;
+  }
+  
+  .companyName {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .address,
+  .contact {
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  .poweredBy {
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgb(255, 255, 255)fff;
+    font-style: italic;
+  }
+  
+  .socialIcons {
+    margin-top: 20px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    font-size: 20px;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .icon:hover {
+    color: rgb(87, 86, 86);
+  }
+  

@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body {
+    background: linear-gradient(to bottom, rgb(0, 0, 0), #102392);
+    color: rgb(255, 255, 255);
+  }

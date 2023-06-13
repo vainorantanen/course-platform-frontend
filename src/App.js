@@ -13,6 +13,7 @@ import { ThemeProvider } from "@emotion/react";
 import AllCourses from "./components/Courses/AllCourses";
 import ReactFrontendMain from "./components/Courses/ReactFrontend/ReactFrontendMain";
 import RFPart1 from "./components/Courses/ReactFrontend/RFPart1";
+import ScrollToTop from "./components/ScrollToTop";
 
 const theme = createTheme({
   typography: {
@@ -25,6 +26,7 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <Container>
           <Navbar />
+          <ScrollToTop />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/courses" element={<AllCourses />}/>

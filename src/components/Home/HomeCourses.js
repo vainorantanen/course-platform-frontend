@@ -64,18 +64,19 @@ const HomeCourses = () => {
           
           <Box sx={{background: 'linear-gradient(to bottom, rgb(0, 0, 0), #0000C3)', borderRadius: '1rem', boxShadow: '0.3rem 0.3rem 0.3rem 0.3rem white',
             transition: 'transform 0.3s',
+            maxWidth: '23rem',
             '&:hover': {
                 transform: 'scale(1.05)',
                 boxShadow: '0.5rem 0.5rem 0.5rem 0.5rem white'
             }
             }}>
-                <img src={codingPic} alt="Pic 1" style={{ width: '23rem', height: 'auto',
+                <img src={codingPic} alt="Pic 1" style={{ width: '20rem', height: 'auto',
               borderRadius: '2rem', margin: '1rem'
                }}/>
                 <Typography sx={{fontSize: '2rem'}}>
                 React Frontend
                 </Typography>
-                <Typography sx={{maxWidth: '30rem', marginTop: '1rem'}}>
+                <Typography sx={{ marginTop: '1rem'}}>
                 Learn modern frontend web development by mastering one of the most popular JavaScript frontend frameworks: React.js!
                 </Typography>
                 <Typography sx={{marginTop: '1rem'}}>

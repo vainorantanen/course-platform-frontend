@@ -31,7 +31,7 @@ const HomeHeader = () => {
             marginBottom: '1rem'
           }}
         >
-         Learn modern Web Development by Mastering the MERN stack: MongoDB, Express.js, React.js, Node.js and Much More!
+         Learn modern Fullstack Web Development by Mastering the MERN stack: MongoDB, Express.js, React.js, Node.js and Much More!
         </Typography>
       </Box>
 
@@ -51,7 +51,7 @@ const HomeHeader = () => {
           justifyContent: 'center',
           width: '20rem'
         }}>
-          <Typography>No previous programming experience needed. Start learning modern Web Development for free!</Typography>
+          <Typography>No previous programming experience needed. Start learning modern Fullstack Web Development for free!</Typography>
           <Button sx={{backgroundColor: 'blue', color: 'white',
           transition: 'transform 0.3s',
           marginTop: '1rem',

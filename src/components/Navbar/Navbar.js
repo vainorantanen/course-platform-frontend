@@ -13,7 +13,7 @@ import {
   styled
 } from '@mui/material';
 import { Menu as MenuIcon } from '@mui/icons-material';
-import companyLogo from '../../Assets/webline_logo.png';
+import companyLogo from '../../Assets/VainoeLogo.png';
 import './navbar.css'
 
 import { Link } from 'react-router-dom';
@@ -52,7 +52,7 @@ const Navbar = () => {
           <IconButton color="inherit" onClick={toggleDrawer}>
             <MenuIcon />
           </IconButton>
-          <img src={companyLogo} alt="company logo" style={{ width: '4rem', height: '3rem' }} />
+          <img src={companyLogo} alt="company logo" style={{ width: '4rem', height: 'auto' }} />
           <div className="nav-buttons">
             <StyledButton color="inherit" component={Link} to="/">
               Home

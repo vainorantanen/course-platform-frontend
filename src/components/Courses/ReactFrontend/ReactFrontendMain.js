@@ -27,18 +27,15 @@ const ReactFrontendMain = () => {
             alignItems: 'flex-start',
           }}
         >
-          <Typography sx={{ marginBottom: '1rem' }}>
-            Part 1: Setting up development environment
-          </Typography>
-          <Typography sx={{ marginBottom: '1rem' }}>Part 2: Basics of HTML, CSS and JavaScript</Typography>
-          <Typography sx={{ marginBottom: '1rem' }}>Part 3: Basics of React.js</Typography>
-          <Typography sx={{ marginBottom: '1rem' }}>Part 4: Frontend Application</Typography>
+          <Typography sx={{ marginBottom: '1rem' }}>Part 1: Basics of React.js</Typography>
+          <Typography sx={{ marginBottom: '1rem' }}>Part 2: Frontend Application</Typography>
           <Button
             sx={{
               backgroundColor: 'blue',
               color: 'white',
               transition: 'transform 0.3s',
               marginTop: '1rem',
+              marginBottom: '1rem',
               '&:hover': {
                 transform: 'scale(1.05)',
                 backgroundImage: 'linear-gradient(to bottom, #003eff, #006eff)',
@@ -49,6 +46,34 @@ const ReactFrontendMain = () => {
           >
             Start from part 1
           </Button>
+          <Typography sx={{ marginBottom: '1rem' }}>If you're not familiar with web development you might want to see these:</Typography>
+          <Button sx={{
+              backgroundColor: 'blue',
+              color: 'white',
+              transition: 'transform 0.3s',
+              marginTop: '1rem',
+              marginBottom: '1rem',
+              '&:hover': {
+                transform: 'scale(1.05)',
+                backgroundImage: 'linear-gradient(to bottom, #003eff, #006eff)',
+              },
+            }}>
+            Setting up development environment
+          </Button>
+          <Button sx={{
+              backgroundColor: 'blue',
+              color: 'white',
+              transition: 'transform 0.3s',
+              marginTop: '1rem',
+              marginBottom: '1rem',
+              '&:hover': {
+                transform: 'scale(1.05)',
+                backgroundImage: 'linear-gradient(to bottom, #003eff, #006eff)',
+              },
+            }}>
+            Basics of HTML, CSS and JavaScript
+          </Button>
+
         </Box>
       </Box>
     </Container>

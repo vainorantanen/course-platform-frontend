@@ -74,7 +74,7 @@ const ReactFrontendMain = () => {
               },
             }}
             component={Link}
-            to="/courses/reactfrontend/part1"
+            to="/courses/reactfrontend/part3"
           >
             Part 3: React Application
           </Button>

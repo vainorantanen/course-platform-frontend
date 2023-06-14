@@ -15,6 +15,7 @@ import ReactFrontendMain from "./components/Courses/ReactFrontend/ReactFrontendM
 import RFPart1 from "./components/Courses/ReactFrontend/RFPart1";
 import ScrollToTop from "./components/ScrollToTop";
 import RFPart2 from "./components/Courses/ReactFrontend/RFPart2";
+import RFPart3 from "./components/Courses/ReactFrontend/RFPart3";
 
 const theme = createTheme({
   typography: {
@@ -34,6 +35,7 @@ const App = () => {
             <Route path="/courses/reactfrontend" element={<ReactFrontendMain />}/>
             <Route path="/courses/reactfrontend/part1" element={<RFPart1 />} />
             <Route path="/courses/reactfrontend/part2" element={<RFPart2 />} />
+            <Route path="/courses/reactfrontend/part3" element={<RFPart3 />} />
           </Routes>
           <Footer />
       </Container>
